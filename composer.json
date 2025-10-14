@@ -1,0 +1,34 @@
+{
+    "name": "mavenbird/login-as-customer",
+    "description": "Mavenbird Login As Customer Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Mavenbird Team",
+            "email": "support@mavenbird.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1",
+        "magento/framework": "^103.0",
+        "mavenbird/module-core": "*"
+ 
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mavenbird\\LoginAsCustomer\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+ 
+ 
